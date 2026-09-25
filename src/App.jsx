@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Badge from "./components/Badge"
+import Banner from "./components/Banner";
 
 function App() {
   return (
@@ -24,6 +25,16 @@ function App() {
       <Badge color="indigo" shape="pill">Badge</Badge>
       <Badge color="pink" shape="pill">Badge</Badge>
     </div>
+
+    <Banner status="success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
+    <Banner status="warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner>
+    <Banner status="error">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner>
+    <Banner status="neutral">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
+   
+    <Banner status="success"></Banner>
+    <Banner status="warning"></Banner>
+    <Banner status="error"></Banner>
+    <Banner status="neutral"></Banner>
     </>
   )
 }

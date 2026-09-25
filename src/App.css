@@ -1,4 +1,5 @@
-.badges-container{
+/* BADGE */
+.badges-container {
   display: flex;
   gap: 1em;
   margin: 1em;
@@ -37,30 +38,90 @@
 }
 
 .badge-green {
-  background: #D1FAE5;
-  color: #065F46;
+  background: #d1fae5;
+  color: #065f46;
 }
 
 .badge-blue {
-  background: #DBEAFE;
-  color: #1E40AF;
+  background: #dbeafe;
+  color: #1e40af;
 }
 
 .badge-indigo {
-  background: #E0E7FF;
-  color: #3730A3;
+  background: #e0e7ff;
+  color: #3730a3;
 }
 
 .badge-purple {
-  background: #EDE9FE;
-  color: #5B21B6;
+  background: #ede9fe;
+  color: #5b21b6;
 }
 
 .badge-pink {
-  background: #FCE7F3;
-  color: #9D174D;
+  background: #fce7f3;
+  color: #9d174d;
 }
 
+/* BANNER */
+.banner {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.4em;
+  display: flex;
+  max-width: 900px;
+  background-color: #fef2f2;
+  padding: 1em;
+  border-radius: 6px;
+  gap: 1em;
+  
+}
 
+.banner img {
+  margin-bottom: auto;
+}
 
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  gap: .6em;
+}
 
+.banner-text p {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.banner-success {
+  color: #065f46;
+  background: #ecfdf5;
+}
+.banner-success p {
+  color: #047857;
+}
+.banner-warning {
+  color: #92400e;
+  background: #fffbeb;
+}
+
+.banner-warning p {
+  color: #b45309;
+}
+
+.banner-error {
+  color: #92400e;
+  background: #fef2f2;
+}
+
+.banner-error p {
+  color: #b45309;
+}
+.banner-neutral {
+  color: #1e40af;
+  background: #eff6ff;
+}
+
+.banner-neutral p {
+  color: #1c51b9;
+}
