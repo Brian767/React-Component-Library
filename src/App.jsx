@@ -26,15 +26,19 @@ function App() {
       <Badge color="pink" shape="pill">Badge</Badge>
     </div>
 
-    <Banner status="success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
-    <Banner status="warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner>
-    <Banner status="error">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner>
-    <Banner status="neutral">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
+    <div className="banners-container">
+      <Banner status="success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
+      <Banner status="warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner>
+      <Banner status="error">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner>
+      <Banner status="neutral">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
+    </div>
    
-    <Banner status="success"></Banner>
-    <Banner status="warning"></Banner>
-    <Banner status="error"></Banner>
-    <Banner status="neutral"></Banner>
+    <div className="banners-container">
+      <Banner status="success"></Banner>
+      <Banner status="warning"></Banner>
+      <Banner status="error"></Banner>
+      <Banner status="neutral"></Banner>
+    </div>
     </>
   )
 }
