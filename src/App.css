@@ -63,7 +63,7 @@
 }
 
 /* BANNER */
-.banners-container{
+.banners-container {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -82,7 +82,6 @@
   padding: 1em;
   border-radius: 6px;
   gap: 1em;
-  
 }
 
 .banner img {
@@ -92,7 +91,7 @@
 .banner-text {
   display: flex;
   flex-direction: column;
-  gap: .6em;
+  gap: 0.6em;
 }
 
 .banner-text p {
@@ -132,4 +131,91 @@
 
 .banner-neutral p {
   color: #1c51b9;
+}
+
+/* CARD */
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+}
+
+.card {
+  background: #f9fafb;
+  width: 385px;
+  height: 210px;
+  position: relative;
+  display: flex;
+  margin: 2em;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #3f75fe;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-icon-blue{
+  background-color: #3f75fe;
+}
+.card-icon-red{
+  background-color: red;
+}
+.card-icon-green{
+  background-color: green;
+}
+.card-icon-yellow{
+  background-color:goldenrod;
+}
+.card-icon-purple{
+  background-color: purple;
+}
+.card-icon-pink{
+  background-color: palevioletred;
+}
+
+.card-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 340px;
+  height: 180px;
+  gap: 1.2em;
+  margin-top: 1em;
+
+}
+
+.card-text h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #111827;
+  margin: 0;
+}
+
+.card-text p{
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6B7280;
 }

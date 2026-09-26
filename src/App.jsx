@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Badge from "./components/Badge"
 import Banner from "./components/Banner";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -38,6 +39,14 @@ function App() {
       <Banner status="warning"></Banner>
       <Banner status="error"></Banner>
       <Banner status="neutral"></Banner>
+    </div>
+    <div className="cards-container">
+      <Card title="Easy Deployment" color="purple">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+      <Card title="Easy Deployment" color="blue">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+      <Card title="Easy Deployment" color="green">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+      <Card title="Easy Deployment" color="yellow">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+      <Card title="Easy Deployment" color="red">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+      <Card title="Easy Deployment" color="pink">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
     </div>
     </>
   )
