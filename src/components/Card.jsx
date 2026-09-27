@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import CloudUpload from "../assets/CloudUpload.svg";
+import CloudUpload from "../assets/Cloudupload.svg";
 
 export default function Card({ children, color = "blue" ,icon = CloudUpload, title = "Title goes here"}) {
 
