@@ -4,13 +4,14 @@ export default function Testimonials({
   children,
   name = "Name",
   role = "role",
+  image,
 }) {
   const testimonialClasses = classNames("testimonial");
 
   return (
     <div className={testimonialClasses}>
       <div className="testimonial-image-wrapper">
-        <img src="src/assets/image.png" alt="headshot of person" />
+        <img src={image} alt="headshot of person" />
       </div>
 
       <div className="testimonial-card">

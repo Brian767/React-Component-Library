@@ -239,6 +239,7 @@
   aspect-ratio: var(--img-ratio);
   object-fit: cover;
   border-radius: 16px;
+  object-position: 50% 32%;
   position: relative;
   z-index: 2;
   margin-bottom: calc(-50% / var(--img-ratio));

@@ -4,6 +4,7 @@ import Badge from "./components/Badge"
 import Banner from "./components/Banner";
 import Card from "./components/Card";
 import Testimonial from "./components/Testimonial";
+import image from "./assets/Full-Image.png"
 
 function App() {
   return (
@@ -51,7 +52,7 @@ function App() {
     </div>
 
     <div className="testimonials-container">
-      <Testimonial name="May Andersons" role="Workcation, CTO">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </Testimonial>
+      <Testimonial name="May Andersons" role="Workcation, CTO" image={image}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </Testimonial>
     </div>
     </>
   )
