@@ -3,6 +3,7 @@ import "./App.css";
 import Badge from "./components/Badge"
 import Banner from "./components/Banner";
 import Card from "./components/Card";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -47,6 +48,10 @@ function App() {
       <Card title="Easy Deployment" color="yellow">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
       <Card title="Easy Deployment" color="red">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
       <Card title="Easy Deployment" color="pink">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+    </div>
+
+    <div className="testimonials-container">
+      <Testimonial name="May Andersons" role="Workcation, CTO">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </Testimonial>
     </div>
     </>
   )
